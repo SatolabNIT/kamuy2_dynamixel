@@ -1,0 +1,259 @@
+member_list:
+  - dxl_name: front_left_link1
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 14
+    baud_rate: 57600
+    model_number: 1170
+    mode: "position"
+    p_gain: 800
+    initial_pos: 0.029146
+  - dxl_name: front_left_link2
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 20
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 400
+    initial_pos: 0.311398327
+  - dxl_name: front_left_link3
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 4
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 400
+    initial_pos: 0.263845
+  - dxl_name: front_right_link1
+    port_name: "/dev/ttyUSB1"
+    dxl_id: 16
+    baud_rate: 57600
+    model_number: 1170
+    mode: "position"
+    p_gain: 800
+    initial_pos: 0.148796
+  - dxl_name: front_right_link2
+    port_name: "/dev/ttyUSB1"
+    dxl_id: 5
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 400
+    initial_pos: 0.062893673
+  - dxl_name: front_right_link3
+    port_name: "/dev/ttyUSB1"
+    dxl_id: 10
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 400
+    initial_pos: -0.254641
+  - dxl_name: back_left_link1
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 13
+    baud_rate: 57600
+    model_number: 1170
+    mode: "position"
+    p_gain: 800
+    initial_pos: -0.214757
+  - dxl_name: back_left_link2
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 1
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 400
+    initial_pos: -0.737844327
+  - dxl_name: back_left_link3
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 9
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 400
+    initial_pos: -0.481670
+  - dxl_name: back_right_link1
+    port_name: "/dev/ttyUSB1"
+    dxl_id: 15
+    baud_rate: 57600
+    model_number: 1170
+    mode: "position"
+    p_gain: 800
+    initial_pos: 0.408039
+  - dxl_name: back_right_link2
+    port_name: "/dev/ttyUSB1"
+    dxl_id: 2
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 400
+    initial_pos: 0.302194327
+  - dxl_name: back_right_link3
+    port_name: "/dev/ttyUSB1"
+    dxl_id: 11
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 400
+    initial_pos: 0.457126
+  - dxl_name: side_left
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 28
+    baud_rate: 57600
+    model_number: 1150
+    mode: "position"
+    p_gain: 200
+    initial_pos: 0.708699
+  - dxl_name: side_right
+    port_name: "/dev/ttyUSB1"
+    dxl_id: 12
+    baud_rate: 57600
+    model_number: 1180
+    mode: "position"
+    p_gain: 200
+    initial_pos: 0.280719
+  - dxl_name: side_right_car
+    port_name: "/dev/ttyUSB1"
+    dxl_id: 22
+    baud_rate: 57600
+    model_number: 1180
+    mode: "velocity"
+    p_gain: 400
+    initial_pos: 0
+  - dxl_name: side_left_car
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 24
+    baud_rate: 57600
+    model_number: 1180
+    mode: "velocity"
+    p_gain: 400
+    initial_pos: 0
+# member_list:
+#   - dxl_name: front_left_link1
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 14
+#     baud_rate: 57600
+#     model_number: 1170
+#     mode: "position"
+#     p_gain: 800
+#     initial_pos: 0.029146
+#   - dxl_name: front_left_link2
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 20
+#     baud_rate: 57600
+#     model_number: 1120
+#     mode: "position"
+#     p_gain: 400
+#     initial_pos: 0.311398327
+#   - dxl_name: front_left_link3
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 4
+#     baud_rate: 57600
+#     model_number: 1120
+#     mode: "position"
+#     p_gain: 400
+#     initial_pos: 0.263845
+#   - dxl_name: front_right_link1
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 16
+#     baud_rate: 57600
+#     model_number: 1170
+#     mode: "position"
+#     p_gain: 800
+#     initial_pos: 0.148796
+#   - dxl_name: front_right_link2
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 5
+#     baud_rate: 57600
+#     model_number: 1120
+#     mode: "position"
+#     p_gain: 400
+#     initial_pos: 0.062893673
+#   - dxl_name: front_right_link3
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 10
+#     baud_rate: 57600
+#     model_number: 1120
+#     mode: "position"
+#     p_gain: 400
+#     initial_pos: -0.254641
+#   - dxl_name: back_left_link1
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 13
+#     baud_rate: 57600
+#     model_number: 1170
+#     mode: "position"
+#     p_gain: 800
+#     initial_pos: -0.214757
+#   - dxl_name: back_left_link2
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 1
+#     baud_rate: 57600
+#     model_number: 1120
+#     mode: "position"
+#     p_gain: 400
+#     initial_pos: -0.737844327
+#   - dxl_name: back_left_link3
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 9
+#     baud_rate: 57600
+#     model_number: 1120
+#     mode: "position"
+#     p_gain: 400
+#     initial_pos: -0.481670
+#   - dxl_name: back_right_link1
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 15
+#     baud_rate: 57600
+#     model_number: 1170
+#     mode: "position"
+#     p_gain: 800
+#     initial_pos: 0.408039
+#   - dxl_name: back_right_link2
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 2
+#     baud_rate: 57600
+#     model_number: 1120
+#     mode: "position"
+#     p_gain: 400
+#     initial_pos: 0.302194327
+#   - dxl_name: back_right_link3
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 11
+#     baud_rate: 57600
+#     model_number: 1120
+#     mode: "position"
+#     p_gain: 400
+#     initial_pos: 0.457126
+#   - dxl_name: side_left
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 28
+#     baud_rate: 57600
+#     model_number: 1150
+#     mode: "position"
+#     p_gain: 400
+#     initial_pos: 0.681087
+#   - dxl_name: side_right
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 12
+#     baud_rate: 57600
+#     model_number: 1180
+#     mode: "position"
+#     p_gain: 400
+#     initial_pos: 0.800738
+#   - dxl_name: side_right_car
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 22
+#     baud_rate: 57600
+#     model_number: 1180
+#     mode: "velocity"
+#     p_gain: 400
+#     initial_pos: 0
+#   - dxl_name: side_left_car
+#     port_name: "/dev/ttyUSB0"
+#     dxl_id: 24
+#     baud_rate: 57600
+#     model_number: 1180
+#     mode: "velocity"
+#     p_gain: 400
+#     initial_pos: 0
+

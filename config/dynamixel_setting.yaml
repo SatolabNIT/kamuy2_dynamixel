@@ -1,0 +1,13 @@
+member_list:
+  - dxl_name: left
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 11
+    baud_rate: 57600
+    model_number: 1020
+    mode: "velocity"
+  - dxl_name: right
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 13
+    baud_rate: 57600
+    model_number: 1020
+    mode: "velocity"

@@ -1,0 +1,6 @@
+<launch>
+    <arg name="port" default="/dev/ttyUSB0"/> 
+    <node name="dog_generator" pkg="dynamixel_controller" type="dog_target_generator" output="screen"> 
+         <rosparam command="load" file="$(find dynamixel_controller)/config/robot_dog_small.yaml"/>
+    </node>
+</launch>

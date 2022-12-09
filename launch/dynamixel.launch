@@ -1,0 +1,7 @@
+<launch>
+    <arg name="port" default="/dev/ttyUSB0"/>
+    <node name="dxl" pkg="kamuy2_dynamixel" type="kamuy2_dynamixel" output="screen"> 
+        <param name="serial_port" value="$(arg port)" />
+         <rosparam command="load" file="$(find kamuy2_dynamixel)/config/TEST.yaml"/>
+    </node>
+</launch>

@@ -1,0 +1,10 @@
+<launch>
+
+    <node name="joint_convert" pkg="dynamixel_controller" type="champ_convert"/>
+    <arg name="port" default="/dev/ttyUSB0"/> 
+    <node name="dxl" pkg="dynamixel_controller" type="dynamixel_controller" output="screen"> 
+        <param name="serial_port" value="$(arg port)" />
+        <rosparam command="load" file="$(find dynamixel_controller)/config/robot_dog_small.yaml"/>
+         <!-- <rosparam command="load" file="$(find dynamixel_controller)/config/robot_dog_test.yaml"/> -->
+    </node>
+</launch>

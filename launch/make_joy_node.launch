@@ -1,0 +1,5 @@
+<launch>
+    <node name="joy_ps5" pkg="joy" type="joy_node" output="screen"> </node>
+    <node name="ps5joydriver" pkg="ps5controller" type="ps5controller_node" output="screen"> </node>
+    <node name="ps5toTwist" pkg="dynamixel_controller" type="ps5toTwist" output="screen"> </node>
+</launch>

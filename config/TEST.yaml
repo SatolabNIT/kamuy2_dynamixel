@@ -1,0 +1,17 @@
+member_list:
+  - dxl_name: link1
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 2
+    baud_rate: 57600
+    model_number: 1170
+    mode: "current"
+    p_gain: 40
+    initial_pos: 0
+  - dxl_name: link2
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 4
+    baud_rate: 57600
+    model_number: 1120
+    mode: "current"
+    p_gain: 40
+    initial_pos: 0

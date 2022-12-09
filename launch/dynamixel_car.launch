@@ -1,0 +1,3 @@
+<launch>
+    <node name="turtlebot_waffle_dynamixel" pkg="turtlebot_controller" type="dynamixel_controller" output="screen"> </node>
+</launch>

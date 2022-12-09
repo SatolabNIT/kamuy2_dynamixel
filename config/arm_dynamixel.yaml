@@ -1,0 +1,74 @@
+member_list:
+  - dxl_name: ARM_YAW
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 205
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 1
+    initial_pos: 0
+  - dxl_name: LINK1
+    port_name: "/dev/ttyUSB1"
+    dxl_id: 11
+    baud_rate: 57600
+    model_number: 2020
+    mode: "position"
+    p_gain: 30
+    initial_pos: -3.062926
+  - dxl_name: LINK2
+    port_name: "/dev/ttyUSB1"
+    dxl_id: 10
+    baud_rate: 57600
+    model_number: 2020
+    mode: "position"
+    p_gain: 30
+    initial_pos: -1.612786
+  - dxl_name: END_YAW
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 200
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 1
+    initial_pos: 0.590583
+  - dxl_name: END_PITCH
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 201
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 1
+    initial_pos: -0.927185
+  - dxl_name: END_ROLL
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 202
+    baud_rate: 57600
+    model_number: 1120
+    mode: "position"
+    p_gain: 1
+    initial_pos: 0.0295
+  - dxl_name: END_L
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 204
+    baud_rate: 57600
+    model_number: 1120
+    mode: "current"
+    p_gain: 1
+    initial_pos: 0
+  - dxl_name: END_R
+    port_name: "/dev/ttyUSB0"
+    dxl_id: 203
+    baud_rate: 57600
+    model_number: 1120
+    mode: "current"
+    p_gain: 1
+    initial_pos: 0
+
+  # - dxl_name: back_right_link3
+  #   port_name: "/dev/ttyUSB1"
+  #   dxl_id: 11
+  #   baud_rate: 57600
+  #   model_number: 1120
+  #   mode: "position"
+  #   p_gain: 400
+  #   initial_pos: 0.457126
